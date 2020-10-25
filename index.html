@@ -18,11 +18,43 @@
             });
         });
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
 
   <title>HARUから</title>
 </head>
 <body>
   <div id="wrapper">
+    <nav>
+      <ul>
+        <li><img src="images/SNSアイコン/instagram-icon.png"></li>
+        <li><img src="images/SNSアイコン/twitter-icon.png"></li>
+        <li><img src="images/SNSアイコン/facebook-icon.png"></li>
+        <li class="youtube-icon"><img src="images/SNSアイコン/youtube-icon.png"></li>
+        <li><img src="images/SNSアイコン/カートのアイコン素材.png"></li>
+        <li><img src="images/SNSアイコン/カレンダー.png"></li>
+        <div class="pagetop">↑</div>
+      </ul>
+    </nav>
     <header>
       <section>
         <h1>
@@ -114,10 +146,10 @@
         </article>
         <p>フォローお待ちしてます！！</p>
         <div class="sns-icons">
-          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          <a href="#"><img src="images/SNSアイコン/instagram-icon.png"></a>
+          <a href="#"><img src="images/SNSアイコン/twitter-icon.png"></a>
+          <a href="#"><img src="images/SNSアイコン/facebook-icon.png"></a>
+          <a href="#"><img src="images/SNSアイコン/youtube-icon.png"></a>
         </div>
       </section>
 
