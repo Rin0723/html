@@ -18,8 +18,10 @@ $font:;
   color: #000;
   box-sizing: border-box;
   /*header閉じタグ*/
+  /*main閉じタグ*/
 }
 #wrapper header {
+  height: 100vh;
   /*sectionの閉じタグ*/
   /*articleの閉じタグ*/
 }
@@ -40,6 +42,7 @@ $font:;
   display: flex;
   font-size: 140%;
   width: 28rem;
+  margin-top: 1rem;
 }
 #wrapper header section nav ul li {
   margin-left: 5%;
@@ -52,6 +55,12 @@ $font:;
 }
 #wrapper main .concept, #wrapper main .sns, #wrapper main .event {
   background: rgba(153, 171, 78, 0.3);
+}
+#wrapper main .concept, #wrapper main .item, #wrapper main .sns, #wrapper main .usato, #wrapper main .event, #wrapper main .column {
+  height: 100vh;
+}
+#wrapper footer {
+  height: 100vh;
 }
 
 /*wrapper閉じタグ*/

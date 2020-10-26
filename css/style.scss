@@ -6,6 +6,7 @@ $white: rgba(245,243,242,0.75);
 $gray: rgba(245,243,242,0.5);
 $yellow: rgba(255,217,0,1);
 $red: rgba(188,8,8,1);
+$height: 100vh;
 /*
 $font:;
 */
@@ -25,6 +26,7 @@ $font:;
     box-sizing: border-box;
     
     header{
+        height: $height;
      section{
         display: flex;
         justify-content: space-between;
@@ -44,6 +46,7 @@ $font:;
                 display: flex;
                 font-size: 140%;
                 width: 28rem;
+                margin-top: 1rem;
                 li{
                     margin-left: 5%;
                  
@@ -69,7 +72,13 @@ $font:;
         .concept,.sns,.event{
             background: $green;
         }
+        .concept,.item,.sns,.usato,.event,.column{
+            height: $height;
+        }
         
+    }/*main閉じタグ*/
+    footer{
+        height: $height;
     }
 }/*wrapper閉じタグ*/
 
