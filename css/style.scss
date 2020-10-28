@@ -147,10 +147,10 @@ $font:;
                     display: flex;
                     justify-content: center;
                     .item-content{
-                        margin-left: 2rem;
+                        margin: 0 1rem;
                         img{
-                        width: 26rem;
-                        height: 100%;
+                        width: 30rem;
+                        height: auto;
                         }
                         .item-box{
                             display: flex;

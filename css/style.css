@@ -138,12 +138,12 @@ $font:;
   /*.item-content閉じタグ*/
 }
 #wrapper main .item .items-contents .item-images .item-content {
-  margin-left: 2rem;
+  margin: 0 1rem;
   /*.item-box閉じタグ*/
 }
 #wrapper main .item .items-contents .item-images .item-content img {
-  width: 26rem;
-  height: 100%;
+  width: 30rem;
+  height: auto;
 }
 #wrapper main .item .items-contents .item-images .item-content .item-box {
   display: flex;
