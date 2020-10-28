@@ -19,6 +19,7 @@ $font:;
   box-sizing: border-box;
   /*header閉じタグ*/
   /*main閉じタグ*/
+  /*footer閉じタグ*/
 }
 #wrapper header {
   height: 100vh;
@@ -28,7 +29,7 @@ $font:;
 #wrapper header section {
   display: flex;
   justify-content: space-between;
-  width: 80rem;
+  width: 85rem;
 }
 #wrapper header section h1 {
   display: inline-block;
@@ -53,14 +54,50 @@ $font:;
 #wrapper header article .title h2 .smile {
   color: #ffd900;
 }
+#wrapper main {
+  /*.concept閉じタグ*/
+}
 #wrapper main .concept, #wrapper main .sns, #wrapper main .event {
   background: rgba(153, 171, 78, 0.3);
 }
 #wrapper main .concept, #wrapper main .item, #wrapper main .sns, #wrapper main .usato, #wrapper main .event, #wrapper main .column {
   height: 100vh;
 }
+#wrapper main .concept {
+  position: relative;
+}
+#wrapper main .concept article {
+  position: absolute;
+  width: 50rem;
+  height: 30rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 22px;
+}
+#wrapper main .concept article h2 {
+  text-align: center;
+}
+#wrapper main .concept article .concept_title {
+  font-weight: bold;
+  font-size: 18px;
+}
+#wrapper main .concept article .concept_title .concept_title::after {
+  content: "";
+  border: 10px solid lightgray;
+}
+#wrapper main .concept article .concept_title2 {
+  font-size: 30px;
+  margin: 1rem 0 3rem 0;
+}
 #wrapper footer {
   height: 100vh;
+  background-image: url(../images/top/229124.jpg);
+}
+#wrapper footer section {
+  background-color: rgba(245, 243, 242, 0.75);
 }
 
 /*wrapper閉じタグ*/

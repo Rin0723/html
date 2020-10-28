@@ -30,7 +30,7 @@ $font:;
      section{
         display: flex;
         justify-content: space-between;
-        width: 80rem;
+        width: 85rem;
     
         
         h1{
@@ -75,11 +75,45 @@ $font:;
         .concept,.item,.sns,.usato,.event,.column{
             height: $height;
         }
+        .concept{
+            position: relative;
+            article{
+                position: absolute;
+                width: 50rem;
+                height: 30rem;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+                font-size: 22px;
+                h2{
+                     text-align: center;
+                }
+                .concept_title{
+                    font-weight: bold;
+                    font-size: 18px;
+                   
+                    .concept_title::after{
+                       content: "";
+                       border: 10px solid lightgray;
+                    }
+                }
+                .concept_title2{
+                    font-size: 30px;
+                    margin: 1rem 0 3rem 0;
+                }
+            }
+        }/*.concept閉じタグ*/
         
     }/*main閉じタグ*/
     footer{
         height: $height;
-    }
+        background-image: url(../images/top/229124.jpg);
+            section{
+                background-color: $white;
+                }
+    }/*footer閉じタグ*/
 }/*wrapper閉じタグ*/
 
 
