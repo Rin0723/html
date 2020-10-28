@@ -165,7 +165,7 @@ $font:;
                             font-size: 18px;
                             background-color: $gray;
                             padding: 10px;
-                            text-align: center;
+                            text-align: right;
                             display: block;
                             width: 16rem;
                         }
@@ -176,6 +176,24 @@ $font:;
                 
             }/*.items-contents閉じタグ*/
         }/*.item閉じタグ*/
+        
+        .sns{
+            position: relative;
+            h2{
+               font-size: $title;
+            }
+            .sns-contents{
+                 width: 50rem;
+                height: 30rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+               
+            }
+        }/*.sns閉じタグ*/
         
     }/*main閉じタグ*/
     footer{

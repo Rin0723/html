@@ -57,6 +57,7 @@ $font:;
 #wrapper main {
   /*.concept閉じタグ*/
   /*.item閉じタグ*/
+  /*.sns閉じタグ*/
 }
 #wrapper main .concept, #wrapper main .sns, #wrapper main .event {
   background: rgba(153, 171, 78, 0.3);
@@ -157,9 +158,25 @@ $font:;
   font-size: 18px;
   background-color: rgba(245, 243, 242, 0.5);
   padding: 10px;
-  text-align: center;
+  text-align: right;
   display: block;
   width: 16rem;
+}
+#wrapper main .sns {
+  position: relative;
+}
+#wrapper main .sns h2 {
+  font-size: 30px;
+}
+#wrapper main .sns .sns-contents {
+  width: 50rem;
+  height: 30rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 #wrapper footer {
   height: 100vh;
