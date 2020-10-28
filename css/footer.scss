@@ -1,0 +1,50 @@
+@charset "utf-8";   
+
+/*変数設定*/
+$green: rgba(153,171,78,0.3);
+$white: rgba(245,243,242,0.75);
+$gray: rgba(245,243,242,0.5);
+$yellow: rgba(255,217,0,1);
+$red: rgba(188,8,8,1);
+$height: 100vh;
+$title: 30px;
+/*
+$font:;
+*/
+
+
+footer{
+        height: $height;
+        background-image: url(../images/top/229124.jpg);
+        position: relative;
+            section{
+                   background-color: $white;
+                   display: block;
+                   width: 30rem;
+                   height: 30rem;
+                   border-radius: 10px;
+                   position: absolute;
+                   top: 0;
+                   left: 4rem;
+                   bottom: 0;
+                   margin: auto;
+                article{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                
+                img{
+                       width: 14rem;
+                       height: auto;
+                       margin-top: 3rem;
+                   }
+                p{
+                    font-size: 18px;
+                    line-height: 2.5;
+                    margin-top: 2rem;
+                    
+                     }
+                }/*article閉じタグ*/
+        }/*section閉じタグ*/
+    }/*footer閉じタグ*/

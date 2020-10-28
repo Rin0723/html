@@ -19,7 +19,6 @@ $font:;
   box-sizing: border-box;
   /*header閉じタグ*/
   /*main閉じタグ*/
-  /*footer閉じタグ*/
 }
 #wrapper header {
   height: 100vh;
@@ -177,41 +176,6 @@ $font:;
   right: 0;
   bottom: 0;
   margin: auto;
-}
-#wrapper footer {
-  height: 100vh;
-  background-image: url(../images/top/229124.jpg);
-  position: relative;
-  /*section閉じタグ*/
-}
-#wrapper footer section {
-  background-color: rgba(245, 243, 242, 0.75);
-  display: block;
-  width: 30rem;
-  height: 30rem;
-  border-radius: 10px;
-  position: absolute;
-  top: 0;
-  left: 4rem;
-  bottom: 0;
-  margin: auto;
-  /*article閉じタグ*/
-}
-#wrapper footer section article {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-#wrapper footer section article img {
-  width: 14rem;
-  height: auto;
-  margin-top: 3rem;
-}
-#wrapper footer section article p {
-  font-size: 18px;
-  line-height: 2.5;
-  margin-top: 2rem;
 }
 
 /*wrapper閉じタグ*/

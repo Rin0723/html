@@ -196,41 +196,7 @@ $font:;
         }/*.sns閉じタグ*/
         
     }/*main閉じタグ*/
-    footer{
-        height: $height;
-        background-image: url(../images/top/229124.jpg);
-        position: relative;
-            section{
-                   background-color: $white;
-                   display: block;
-                   width: 30rem;
-                   height: 30rem;
-                   border-radius: 10px;
-                   position: absolute;
-                   top: 0;
-                   left: 4rem;
-                   bottom: 0;
-                   margin: auto;
-                article{
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                
-                img{
-                       width: 14rem;
-                       height: auto;
-                       margin-top: 3rem;
-                   }
-                p{
-                    font-size: 18px;
-                    line-height: 2.5;
-                    margin-top: 2rem;
-                    
-                     }
-                }/*article閉じタグ*/
-        }/*section閉じタグ*/
-    }/*footer閉じタグ*/
+ 
 }/*wrapper閉じタグ*/
 
 

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*変数設定*/
+/*
+$font:;
+*/
+footer {
+  height: 100vh;
+  background-image: url(../images/top/229124.jpg);
+  position: relative;
+  /*section閉じタグ*/
+}
+footer section {
+  background-color: rgba(245, 243, 242, 0.75);
+  display: block;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 4rem;
+  bottom: 0;
+  margin: auto;
+  /*article閉じタグ*/
+}
+footer section article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer section article img {
+  width: 14rem;
+  height: auto;
+  margin-top: 3rem;
+}
+footer section article p {
+  font-size: 18px;
+  line-height: 2.5;
+  margin-top: 2rem;
+}
+
+/*footer閉じタグ*/
