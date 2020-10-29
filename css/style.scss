@@ -32,7 +32,7 @@ $font:;
         display: flex;
         justify-content: space-between;
         width: 85rem;
-    
+        margin: 1rem;
         
         h1{
             display: inline-block;
@@ -67,6 +67,17 @@ $font:;
             
         }
         }/*articleの閉じタグ*/
+        .title-contents{
+            .slider{
+                width: 80rem;
+                height: 100vh;
+                margin-top: 1rem;
+                img{
+                    width: 80rem;
+                    height: auto;
+                }
+            }
+        }
         
     }/*header閉じタグ*/
     main{
