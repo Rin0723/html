@@ -32,14 +32,15 @@ $font:;
         display: flex;
         justify-content: space-between;
         width: 85rem;
-        margin: 1rem;
         
         h1{
             display: inline-block;
-            width: 10%;
+            width: 50rem;
+            margin: 1rem 0;
             margin-left: 5%;
+            
             img{
-               width: 100%;
+               width: 13%;
             }
         }
         nav{
@@ -47,7 +48,7 @@ $font:;
                 display: flex;
                 font-size: 140%;
                 width: 28rem;
-                margin-top: 1rem;
+                margin: 2rem 0;
                 li{
                     margin-left: 5%;
                  
@@ -68,13 +69,15 @@ $font:;
         }
         }/*articleの閉じタグ*/
         .title-contents{
+            overflow: hidden;
             .slider{
                 width: 80rem;
-                height: 100vh;
-                margin-top: 1rem;
+                height: 58.21em;
+                box-sizing: border-box;
                 img{
-                    width: 80rem;
+                    width: 90rem;
                     height: auto;
+                    
                 }
             }
         }
@@ -160,7 +163,7 @@ $font:;
                     .item-content{
                         margin: 0 1rem;
                         img{
-                        width: 30rem;
+                        width: 28rem;
                         height: auto;
                         }
                         .item-box{
@@ -194,8 +197,8 @@ $font:;
                font-size: $title;
             }
             .sns-contents{
-                width: 50rem;
-                height: 30rem;
+                width: 100px;
+                height: 100px;
                 position: absolute;
                 top: 0;
                 left: 0;

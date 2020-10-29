@@ -32,17 +32,18 @@ $font:;
 }
 #wrapper header section h1 {
   display: inline-block;
-  width: 10%;
+  width: 50rem;
+  margin: 1rem 0;
   margin-left: 5%;
 }
 #wrapper header section h1 img {
-  width: 100%;
+  width: 13%;
 }
 #wrapper header section nav ul {
   display: flex;
   font-size: 140%;
   width: 28rem;
-  margin-top: 1rem;
+  margin: 2rem 0;
 }
 #wrapper header section nav ul li {
   margin-left: 5%;
@@ -52,6 +53,18 @@ $font:;
 }
 #wrapper header article .title h2 .smile {
   color: #ffd900;
+}
+#wrapper header .title-contents {
+  overflow: hidden;
+}
+#wrapper header .title-contents .slider {
+  width: 80rem;
+  height: 58.21em;
+  box-sizing: border-box;
+}
+#wrapper header .title-contents .slider img {
+  width: 90rem;
+  height: auto;
 }
 #wrapper main {
   /*.concept閉じタグ*/
@@ -141,7 +154,7 @@ $font:;
   /*.item-box閉じタグ*/
 }
 #wrapper main .item .items-contents .item-images .item-content img {
-  width: 30rem;
+  width: 28rem;
   height: auto;
 }
 #wrapper main .item .items-contents .item-images .item-content .item-box {
@@ -168,8 +181,8 @@ $font:;
   font-size: 30px;
 }
 #wrapper main .sns .sns-contents {
-  width: 50rem;
-  height: 30rem;
+  width: 100px;
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
