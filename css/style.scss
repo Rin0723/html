@@ -227,13 +227,20 @@ $font:;
                 right: 0;
                 bottom: 0;
                 margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .sns-items{
                     display: flex;
                     justify-content: space-between;
                     
                     .sns-item{
-                        width: 30rem;
-                        
+                        width: 40rem;
+                        h3{
+                            font-size: 26px;
+                            text-align: center;
+                            width: 40rem;
+                        }
                     }
                 }
             }
