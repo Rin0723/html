@@ -227,12 +227,11 @@ $font:;
                 right: 0;
                 bottom: 0;
                 margin: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                
                 .sns-items{
                     display: flex;
                     justify-content: space-between;
+                    margin-top: 3rem;
                     
                     .sns-item{
                         width: 40rem;
@@ -240,6 +239,14 @@ $font:;
                             font-size: 26px;
                             text-align: center;
                             width: 40rem;
+                        }
+                        .post-pictures{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            img{
+                               width: 30%;
+                            }
                         }
                     }
                 }

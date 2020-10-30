@@ -210,13 +210,11 @@ $font:;
   right: 0;
   bottom: 0;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 #wrapper main .sns .sns-contents .sns-items {
   display: flex;
   justify-content: space-between;
+  margin-top: 3rem;
 }
 #wrapper main .sns .sns-contents .sns-items .sns-item {
   width: 40rem;
@@ -225,6 +223,14 @@ $font:;
   font-size: 26px;
   text-align: center;
   width: 40rem;
+}
+#wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures img {
+  width: 30%;
 }
 
 /*wrapper閉じタグ*/
