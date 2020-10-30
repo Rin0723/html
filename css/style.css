@@ -179,16 +179,44 @@ $font:;
 }
 #wrapper main .sns h2 {
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#wrapper main .sns .sns-text {
+  display: flex;
+  justify-content: center;
+}
+#wrapper main .sns .sns-text h3 {
+  font-size: 20px;
+  display: block;
+  width: 60rem;
+  height: 6rem;
+  line-height: 1.2;
+}
+#wrapper main .sns h3 {
+  font-size: 20px;
+  display: block;
+  width: 50rem;
+}
+#wrapper main .sns img {
+  width: 10%;
 }
 #wrapper main .sns .sns-contents {
-  width: 100px;
-  height: 100px;
+  width: 80rem;
+  height: 40rem;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+}
+#wrapper main .sns .sns-contents .sns-items {
+  display: flex;
+  justify-content: space-between;
+}
+#wrapper main .sns .sns-contents .sns-items .sns-item {
+  width: 30rem;
 }
 
 /*wrapper閉じタグ*/
