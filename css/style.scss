@@ -199,6 +199,7 @@ $font:;
         
         .sns{
             position: relative;
+            padding-bottom: 70rem;
             h2{
                font-size: $title;
                text-align: center;
@@ -249,14 +250,21 @@ $font:;
                         .post-pictures{
                             display: flex;
                             flex-direction: column;
+                            margin-left: 4%;
                             img{
-                               width: 30%;
+                               width: 32%;
                                border: 2px solid #fff;
                             }
                         }
                     }
+                }/*.sns-items閉じタグ*/
+                .youtube{
+                    img{
+                        width: 82%;
+                        margin-left: 10%;
+                    }
                 }
-            }
+            }/*.sns-contents閉じタグ*/
         }/*.sns閉じタグ*/
         
     }/*main閉じタグ*/

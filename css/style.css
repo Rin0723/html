@@ -182,6 +182,8 @@ $font:;
 }
 #wrapper main .sns {
   position: relative;
+  padding-bottom: 70rem;
+  /*.sns-contents閉じタグ*/
 }
 #wrapper main .sns h2 {
   font-size: 30px;
@@ -216,6 +218,7 @@ $font:;
   right: 0;
   bottom: 0;
   margin: auto;
+  /*.sns-items閉じタグ*/
 }
 #wrapper main .sns .sns-contents .sns-items {
   display: flex;
@@ -233,10 +236,15 @@ $font:;
 #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures {
   display: flex;
   flex-direction: column;
+  margin-left: 4%;
 }
 #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures img {
-  width: 30%;
+  width: 32%;
   border: 2px solid #fff;
+}
+#wrapper main .sns .sns-contents .youtube img {
+  width: 82%;
+  margin-left: 10%;
 }
 
 /*wrapper閉じタグ*/
