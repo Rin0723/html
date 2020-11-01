@@ -58,7 +58,7 @@ $font:;
   left: 2rem;
 }
 #wrapper header article .title h2 {
-  text-shadow: 1px 2px 3px #D0D0D0;
+  text-shadow: 1px 2px 3px #242322;
   font-size: 30px;
   text-align: center;
   margin-top: 4rem;
@@ -235,6 +235,7 @@ $font:;
   font-size: 20px;
   display: block;
   width: 50rem;
+  margin-bottom: 2rem;
 }
 #wrapper main .sns img {
   width: 10%;
@@ -321,8 +322,9 @@ $font:;
   margin-top: 10rem;
 }
 #wrapper main .usato h2 {
-  font-size: 22px;
+  font-size: 30px;
   text-align: center;
+  margin-top: 2rem;
 }
 #wrapper main .usato .usato-contents {
   display: flex;
@@ -337,13 +339,21 @@ $font:;
   width: 36rem;
   font-size: 18px;
   line-height: 1.8;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  margin-bottom: 10rem;
 }
 #wrapper main .usato .usato-contents .usato-text a {
   font-size: 18px;
   border: 1px solid #000;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#wrapper main .usato .usato-contents .usato-text .usato-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #wrapper main .usato .usato-contents .dummy {
   width: 40rem;
