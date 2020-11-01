@@ -59,12 +59,33 @@ $font:;
     }/*sectionの閉じタグ*/
     article{
         .title{
+            background-color: $white;
+            width: 30rem;
+            height: 20rem;
+            border-radius: 10px;
+            position: absolute;
+            top: 20rem;
+            left: 2rem;
             h2{
                 text-shadow:1px 2px 3px #D0D0D0; 
+                font-size: 30px;
+                text-align: center;
+                margin-top: 4rem;
             .smile{
                 color: $yellow;
               }
+                span{
+                    font-size: 36px;
+                }
           }
+            a{
+                font-size: 20px;
+                border: 1px solid #000;
+                padding: 20px;
+                position: absolute;
+                top: 12rem;
+                left: 5rem;
+            }
             
         }
         }/*articleの閉じタグ*/
@@ -72,7 +93,7 @@ $font:;
             overflow: hidden;
             .slider{
                 width: 80rem;
-                height: 58.21em;
+                height: 61.5em;
                 box-sizing: border-box;
                 img{
                     width: 90rem;
@@ -110,14 +131,22 @@ $font:;
                        content: "";
                        border: 2px solid lightgray;
                        position: absolute;
-                       z-index: 2;
+                       z-index: 1;
                        top: 50%;
+                       left: 0;
                        width: 100%;
                        height: 1px;
                     }
                 .concept_title{
                     font-weight: bold;
                     font-size: 18px;
+                    
+                    span{
+                        z-index: 2;
+                        display: inline-block;
+                        background-color: $green;
+                    }
+                    
                    
                 }
                 .concept_title2{
@@ -199,7 +228,7 @@ $font:;
         
         .sns{
             position: relative;
-            padding-bottom: 70rem;
+            padding-bottom: 90rem;
             h2{
                font-size: $title;
                text-align: center;
@@ -229,10 +258,9 @@ $font:;
                 width: 80rem;
                 height: 40rem;
                 position: absolute;
-                top: 0;
+                top: 10rem;
                 left: 0;
                 right: 0;
-                bottom: 0;
                 margin: auto;
                 
                 .sns-items{
@@ -262,13 +290,14 @@ $font:;
                             display: block;
                             width: 80%;
                             margin-left: 12%;
+                            margin-bottom: 4rem;
                         }
                         .link{
                             font-size: 20px;
                             border: 1px solid #000;
                             padding: 10px;
                             border-radius: 10px;
-                            margin-top: 3rem;
+                            margin-left: 14rem;
                         }
                     }
                 }/*.sns-items閉じタグ*/
@@ -278,8 +307,73 @@ $font:;
                         margin-left: 10%;
                     }
                 }
+                
+                .follow{
+                    margin-top: 10rem;
+                    position: relative;
+                    p{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                    img.SNSfollow{
+                        width: 30%;
+                        position: absolute;
+                        top: 4rem;
+                        left: 28rem;
+                    }
+                    .sns-icons{
+                       position: absolute;
+                       top: 7rem;
+                       left: 35rem;
+                        img{
+                            width: 5%;
+                        }
+                    }
+                }
             }/*.sns-contents閉じタグ*/
         }/*.sns閉じタグ*/
+        
+        .usato{
+            padding-bottom: 60rem;
+            .red{
+                color: $red;
+                font-size: 16px;
+                margin-top: 10rem;
+            }
+            h2{
+                font-size: 22px;
+                text-align: center;
+            }
+            .usato-contents{
+                display: flex;
+                justify-content: center;
+                margin-top: 5rem;
+                
+                .usato-text{
+                    width: 40%;
+                    p{
+                        display: inline-block;
+                        width: 36rem;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        margin: 1rem 0;
+                    }
+                    a{
+                        font-size: 18px;
+                        border: 1px solid #000;
+                        padding: 20px;
+                        border-radius: 10px;
+                    }
+                }
+                .dummy{
+                    width: 40rem;
+                    height: 42rem;
+                    background-color: #000;
+                    margin-left: 2rem;
+                }
+            }
+            
+        }/*.usato閉じタグ*/
         
     }/*main閉じタグ*/
  
