@@ -103,6 +103,7 @@ $font:;
 }
 #wrapper main .concept {
   position: relative;
+  z-index: -2;
 }
 #wrapper main .concept article {
   position: absolute;
@@ -123,7 +124,7 @@ $font:;
   content: "";
   border: 2px solid lightgray;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 50%;
   left: 0;
   width: 100%;
@@ -134,9 +135,10 @@ $font:;
   font-size: 18px;
 }
 #wrapper main .concept article .concept_title span {
-  z-index: 2;
+  z-index: 1;
   display: inline-block;
-  background-color: rgba(153, 171, 78, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
 }
 #wrapper main .concept article .concept_title2 {
   font-size: 30px;
