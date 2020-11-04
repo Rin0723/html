@@ -420,11 +420,17 @@ $font:;
 /*max-768px*/
 @media screen and (max-width:768px){
     /*header*/
+    header{
+     section{
+         nav{
+             display: none;
+         }    
+    }    
     .title-contents{
         overflow: visible;
-    }
+
     .slider{
-                width: 480%;
+                width: 294%;
                 height: auto;
                 box-sizing: border-box;
                 img{
@@ -433,6 +439,8 @@ $font:;
                     
                 }
             }
-}
+    }/*.title-contents閉じ*/
+ }/*header閉じ*/
+}/*@media768px閉じタグ*/
 
 

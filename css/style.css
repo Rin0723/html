@@ -393,17 +393,25 @@ $font:;
 /*max-768px*/
 @media screen and (max-width: 768px) {
   /*header*/
-  .title-contents {
+  header {
+    /*.title-contents閉じ*/
+  }
+  header section nav {
+    display: none;
+  }
+  header .title-contents {
     overflow: visible;
   }
-
-  .slider {
-    width: 480%;
+  header .title-contents .slider {
+    width: 294%;
     height: auto;
     box-sizing: border-box;
   }
-  .slider img {
+  header .title-contents .slider img {
     width: 100%;
     height: auto;
   }
+
+  /*header閉じ*/
 }
+/*@media768px閉じタグ*/
