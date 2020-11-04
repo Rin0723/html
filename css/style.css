@@ -86,7 +86,7 @@ $font:;
   box-sizing: border-box;
 }
 #wrapper header .title-contents .slider img {
-  width: 90rem;
+  width: 120%;
   height: auto;
 }
 #wrapper main {
@@ -103,7 +103,7 @@ $font:;
 }
 #wrapper main .concept {
   position: relative;
-  z-index: -2;
+  z-index: -1;
 }
 #wrapper main .concept article {
   position: absolute;
@@ -124,7 +124,7 @@ $font:;
   content: "";
   border: 2px solid lightgray;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 50%;
   left: 0;
   width: 100%;
@@ -162,8 +162,8 @@ $font:;
   text-align: center;
 }
 #wrapper main .concept article .contener {
-  width: 200px;
-  height: 150px;
+  width: 100%;
+  height: 20%;
   background: #fff;
   position: relative;
 }
