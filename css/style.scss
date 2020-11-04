@@ -133,14 +133,14 @@ $font:;
                        border: 2px solid lightgray;
                        position: absolute;
                        z-index: 1;
-                       top: 50%;
+                       top: 110%;
                        left: 0;
                        width: 100%;
                        height: 1px;
                     }
                 .concept_title{
                     font-weight: bold;
-                    font-size: 18px;
+                    font-size: 22px;
                     
                     span{
                         z-index: 1;
@@ -298,6 +298,9 @@ $font:;
                             display: flex;
                             flex-direction: column;
                             margin-left: 4%;
+                            .picture{
+                                width: 90%;    
+                            }
                             img{
                                width: 32%;
                                border: 2px solid #fff;
