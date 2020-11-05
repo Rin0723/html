@@ -285,6 +285,7 @@ $font:;
   display: flex;
   flex-direction: column;
   margin-left: 4%;
+  border: 2px solid #fff;
 }
 #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures .picture {
   width: 90%;
