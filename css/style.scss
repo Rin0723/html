@@ -419,9 +419,7 @@ $font:;
         
     }/*main閉じタグ*/
  
-}/*wrapper閉じタグ*/
-
-
+    
 /*max-768px*/
 @media (max-width:768px){
     /*header*/
@@ -430,9 +428,39 @@ $font:;
          nav{
              display: none;
          }    
-    }    
+    }
+    article{
+    .title{
+            background-color: $white;
+            width: 100%;
+            height: 40%;
+            border-radius: 10px;
+            position: absolute;
+            top: 60%;
+            left: 0;
+            h2{
+                text-shadow:1px 2px 3px #242322; 
+                font-size: 34px;
+                text-align: center;
+                margin-top: 4rem;
+            .smile{
+                color: $yellow;
+              }
+                span{
+                    font-size: 40px;
+                }
+          }
+            a{
+                font-size: 20px;
+                border: 1px solid #000;
+                padding: 20px;
+                position: absolute;
+                top:  60%;
+                left: 10%;
+            }
+        }/*.title閉じタグ*/
+     }/*article閉じ*/
     .title-contents{
-        overflow: visible;
 
     .slider{
                 width: 294%;
@@ -443,9 +471,106 @@ $font:;
                     height: auto;
                     
                 }
-            }
+            }/*.slider 閉じ*/
     }/*.title-contents閉じ*/
+    
  }/*header閉じ*/
+    
+main{
+        .concept{
+            position: none;
+            z-index: -1;
+            padding-bottom: 60rem;
+            article{
+                position: none;
+                top: none;
+                right: none;
+                left: none;
+                bottom: none;
+                margin: none;
+                font-size: 20px;
+                h2{
+                     text-align: center;
+                }
+                 h2.concept_title::before{
+                       content: "";
+                       border: 2px solid lightgray;
+                       position: none;
+                       z-index: 1;
+                       top: 110%;
+                       left: 0;
+                       width: 47%;
+                       height: 1px;
+                    }
+                .concept_title{
+                    font-weight: bold;
+                    font-size: 20px;
+                    
+                    span{
+                        z-index: 1;
+                        display: inline-block;
+                        padding: 1rem;
+                    }
+                    
+                   
+                }
+                .concept_title2{
+                    font-size: 25px;
+                    margin: none;
+                    text-align: left;
+                }
+                p{
+                    display: inline-block;
+                    width: 42%;
+                }
+                .concept-box{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-left: 5%;
+                }
+                .botton{
+                  margin-top: 5rem;
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+                  width: 20rem;
+                  position: none;
+                  left: none;
+                  right: none;
+                  margin: none;
+                  
+                    a{
+                        border: 1px solid #000;
+                        padding: 20px;
+                        border-radius: 10px;
+                        margin-top: 2rem;
+                        text-align: center;
+                    }
+              }
+                .contener{
+                     width: 100%;
+                    height: 20%;
+                    background: #fff;
+                    position: relative;
+                    h2{
+                            text-align: center;
+                    }
+                    .bg{
+                        width: 47%;
+                        height: 100%;
+                        position: absolute;
+                        background-size: cover;
+                        opacity: 0.3;
+                        background-color: #99AB4E;
+                    }
+                }
+            }
+        }/*.concept閉じタグ*/
+    }/*main閉じタグ*/
 }/*@media768px閉じタグ*/
+}/*wrapper閉じタグ*/
+
+
+
 
 
