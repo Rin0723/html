@@ -81,12 +81,12 @@ $font:;
   overflow: hidden;
 }
 #wrapper header .title-contents .slider {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   box-sizing: border-box;
 }
 #wrapper header .title-contents .slider img {
-  width: 100%;
+  width: 100vw;
   height: 89%;
 }
 #wrapper main {
