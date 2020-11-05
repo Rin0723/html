@@ -12,7 +12,6 @@ $title: 30px;
 $font:;
 */
 
-
 footer{
         height: $height;
         background-image: url(../images/top/229124.jpg);
@@ -50,3 +49,39 @@ footer{
                 }/*article閉じタグ*/
         }/*section閉じタグ*/
     }/*footer閉じタグ*/
+
+/*media 768px*/
+@media (max-width:768px){
+    footer{
+         section{
+                   background-color: $white;
+                   display: block;
+                   width: 100%;
+                   height: 50%;
+                   border-radius: 10px;
+                   position: absolute;
+                   top: inherit;
+                   left: 0;
+                   bottom: 0;
+                   margin: auto;
+                article{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                
+                img{
+                       width: 14rem;
+                       height: auto;
+                       margin-top: 3rem;
+                   }
+                p{
+                    font-size: 16px;
+                    line-height: 1.5;
+                    margin-top: 4rem;
+                    
+                     }
+                }/*article閉じタグ*/
+        }/*section閉じタグ*/
+    }/*footer*/
+}/*media 768px閉じ*/
