@@ -137,7 +137,7 @@ $font:;
   font-weight: bold;
   font-size: 22px;
 }
-#wrapper main .concept article .concept_title span {
+#wrapper main .concept article .concept_title div {
   z-index: 1;
   display: inline-block;
   padding: 1rem;
@@ -468,6 +468,8 @@ $font:;
     bottom: none;
     margin: none;
     font-size: 20px;
+    width: 100%;
+    height: 80%;
   }
   #wrapper main .concept article h2 {
     text-align: center;
@@ -477,9 +479,9 @@ $font:;
     border: 2px solid lightgray;
     position: none;
     z-index: 1;
-    top: 110%;
+    top: 180%;
     left: 0;
-    width: 47%;
+    width: 100%;
     height: 1px;
   }
   #wrapper main .concept article .concept_title {
@@ -498,12 +500,12 @@ $font:;
   }
   #wrapper main .concept article p {
     display: inline-block;
-    width: 42%;
+    width: 100%;
   }
   #wrapper main .concept article .concept-box {
     display: flex;
     justify-content: flex-start;
-    margin-left: 5%;
+    margin: 0 5%;
   }
   #wrapper main .concept article .botton {
     margin-top: 5rem;
@@ -533,7 +535,7 @@ $font:;
     text-align: center;
   }
   #wrapper main .concept article .contener .bg {
-    width: 47%;
+    width: 100%;
     height: 100%;
     position: absolute;
     background-size: cover;
