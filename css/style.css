@@ -82,12 +82,12 @@ $font:;
 }
 #wrapper header .title-contents .slider {
   width: 100%;
-  height: auto;
+  height: 100vh;
   box-sizing: border-box;
 }
 #wrapper header .title-contents .slider img {
   width: 100%;
-  height: auto;
+  height: 89%;
 }
 #wrapper main {
   /*.concept閉じタグ*/
