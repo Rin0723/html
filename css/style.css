@@ -292,7 +292,7 @@ $font:;
   width: 90%;
 }
 #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures img {
-  width: 32%;
+  width: 33.333%;
   border: 2px solid #fff;
 }
 #wrapper main .sns .sns-contents .sns-items .sns-item p {
@@ -311,7 +311,7 @@ $font:;
   margin-left: 14rem;
 }
 #wrapper main .sns .sns-contents .youtube img {
-  width: 82%;
+  width: 88%;
   margin-left: 10%;
 }
 #wrapper main .sns .sns-contents .follow {
