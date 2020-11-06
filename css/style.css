@@ -454,6 +454,9 @@ $font:;
   }
   #wrapper main {
     /*.concept閉じタグ*/
+    /*.item閉じタグ*/
+    /*.sns閉じタグ*/
+    /*.usato閉じタグ*/
   }
   #wrapper main .concept {
     position: none;
@@ -541,6 +544,227 @@ $font:;
     background-size: cover;
     opacity: 0.3;
     background-color: #99AB4E;
+  }
+  #wrapper main .item {
+    position: relative;
+    padding-bottom: 120rem;
+    /*.items-contents閉じタグ*/
+  }
+  #wrapper main .item .items-contents {
+    position: none;
+    top: none;
+    left: none;
+    right: none;
+    bottom: none;
+    margin: none;
+    width: 100%;
+    height: 100%;
+    /*.item-images閉じタグ*/
+  }
+  #wrapper main .item .items-contents h2 {
+    font-size: 26px;
+    text-align: center;
+    margin: 4rem 0;
+  }
+  #wrapper main .item .items-contents .item-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*.item-content閉じタグ*/
+  }
+  #wrapper main .item .items-contents .item-images .item-content {
+    margin: 0;
+    /*.item-box閉じタグ*/
+  }
+  #wrapper main .item .items-contents .item-images .item-content img {
+    width: 28rem;
+    height: auto;
+  }
+  #wrapper main .item .items-contents .item-images .item-content .item-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 10rem 0;
+  }
+  #wrapper main .item .items-contents .item-images .item-content .item-box h3 {
+    font-size: 20px;
+  }
+  #wrapper main .item .items-contents .item-images .item-content .item-box p {
+    font-size: 18px;
+    background-color: rgba(245, 243, 242, 0.5);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 16rem;
+  }
+  #wrapper main .sns {
+    position: relative;
+    padding-bottom: 150rem;
+    /*.sns-contents閉じタグ*/
+  }
+  #wrapper main .sns h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #wrapper main .sns .sns-text {
+    display: flex;
+    justify-content: center;
+  }
+  #wrapper main .sns .sns-text h3 {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.2;
+    margin: 3rem 1rem 5rem 1rem;
+  }
+  #wrapper main .sns h3 {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  #wrapper main .sns img {
+    width: 10%;
+  }
+  #wrapper main .sns .sns-contents {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*.sns-items閉じタグ*/
+  }
+  #wrapper main .sns .sns-contents .sns-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item {
+    width: 100%;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item h3 {
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10rem;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+    border: 2px solid #fff;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures .picture {
+    width: 90%;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item .post-pictures img {
+    width: 33.333%;
+    border: 2px solid #fff;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item p {
+    font-size: 18px;
+    margin-top: 1rem;
+    display: block;
+    width: 80%;
+    margin-left: 12%;
+    margin-bottom: 4rem;
+  }
+  #wrapper main .sns .sns-contents .sns-items .sns-item .link {
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 22%;
+  }
+  #wrapper main .sns .sns-contents .youtube img {
+    width: 91%;
+    margin: 0 1rem;
+  }
+  #wrapper main .sns .sns-contents .follow {
+    margin-top: 10rem;
+    position: relative;
+  }
+  #wrapper main .sns .sns-contents .follow p {
+    font-size: 18px;
+    text-align: center;
+  }
+  #wrapper main .sns .sns-contents .follow img.SNSfollow {
+    width: 95%;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+  #wrapper main .sns .sns-contents .follow .sns-icons {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+  }
+  #wrapper main .sns .sns-contents .follow .sns-icons img {
+    width: 10%;
+  }
+  #wrapper main .usato {
+    padding-bottom: 100rem;
+  }
+  #wrapper main .usato .red {
+    color: #bc0808;
+    font-size: 14px;
+    margin-top: 10rem;
+  }
+  #wrapper main .usato h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #wrapper main .usato .usato-contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  #wrapper main .usato .usato-contents .usato-text {
+    width: 40%;
+  }
+  #wrapper main .usato .usato-contents .usato-text p {
+    display: inline-block;
+    width: 36rem;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 6rem 0;
+  }
+  #wrapper main .usato .usato-contents .usato-text a {
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  #wrapper main .usato .usato-contents .usato-text .usato-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #wrapper main .usato .usato-contents .dummy {
+    width: 40rem;
+    height: 42rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    position: relative;
+  }
+  #wrapper main .usato .usato-contents .dummy img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 }
 
