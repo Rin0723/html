@@ -26,6 +26,18 @@ $font:;
     color: #000;
     box-sizing: border-box;
     
+    nav.koteiver{
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            img{
+                width: 5%;
+                margin-top: 2rem;
+            }
+        }
+    }/* nav.koteiver閉じタグ*/
+    
     header{
         height: $height;
      section{

@@ -17,10 +17,20 @@ $font:;
   font-size: 12px;
   color: #000;
   box-sizing: border-box;
+  /* nav.koteiver閉じタグ*/
   /*header閉じタグ*/
   /*main閉じタグ*/
   /*max-768px*/
   /*@media768px閉じタグ*/
+}
+#wrapper nav.koteiver ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+#wrapper nav.koteiver ul img {
+  width: 5%;
+  margin-top: 2rem;
 }
 #wrapper header {
   height: 100vh;
