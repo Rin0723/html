@@ -44,6 +44,12 @@ $font:;
                 width: 100%;
                 margin-top: 2rem;
             }
+            .youtube-icon{
+                margin-bottom: 4rem;
+            }
+            li:last-child{
+                margin-top: 8rem;
+            }
         }
     }/* nav.koteiver閉じタグ*/
     
@@ -443,6 +449,10 @@ $font:;
     
 /*max-768px*/
 @media (max-width:768px){
+    
+    nav.koteiver{
+        display: none;
+    }
     /*header*/
     header{
      section{

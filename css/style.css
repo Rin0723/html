@@ -43,6 +43,12 @@ $font:;
   width: 100%;
   margin-top: 2rem;
 }
+#wrapper nav.koteiver ul .youtube-icon {
+  margin-bottom: 4rem;
+}
+#wrapper nav.koteiver ul li:last-child {
+  margin-top: 8rem;
+}
 #wrapper header {
   height: 100vh;
   /*sectionの閉じタグ*/
@@ -421,6 +427,9 @@ $font:;
     /*header*/
     /*header閉じ*/
     /*main閉じタグ*/
+  }
+  #wrapper nav.koteiver {
+    display: none;
   }
   #wrapper header {
     /*article閉じ*/
