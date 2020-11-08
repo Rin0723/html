@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*変数設定*/
+$green: rgba(153,171,78,0.3);
+$white: rgba(245,243,242,0.75);
+$gray: rgba(245,243,242,0.5);
+$yellow: rgba(255,217,0,1);
+$red: rgba(188,8,8,1);
+$height: 100vh;
+$title: 30px;
+/*
+$font:;
+*/
+
+header{
+    background-color: $green;
+    h1{
+        img{
+            width: 10%;
+            margin: 2rem 0;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            position: absolute;
+            top: 3.5rem;
+            right: 3rem;
+            li{
+                margin-left: 2rem;
+            }
+
+        }
+    }
+}

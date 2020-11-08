@@ -9,74 +9,63 @@ footer {
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
-  /*section閉じタグ*/
-}
-footer section {
-  background-color: rgba(245, 243, 242, 0.75);
-  display: block;
-  width: 30rem;
-  height: 30rem;
-  border-radius: 10px;
-  position: absolute;
-  top: 0;
-  left: 4rem;
-  bottom: 0;
-  margin: auto;
-  /*article閉じタグ*/
-}
-footer section article {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-footer section article img {
-  width: 14rem;
-  height: auto;
-  margin-top: 3rem;
-}
-footer section article p {
-  font-size: 18px;
-  line-height: 2.5;
-  margin-top: 2rem;
-}
+  /*section閉じタグ*/ }
+  footer section {
+    background-color: rgba(245, 243, 242, 0.75);
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    bottom: 0;
+    margin: auto;
+    /*article閉じタグ*/ }
+    footer section article {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      footer section article img {
+        width: 14rem;
+        height: auto;
+        margin-top: 3rem; }
+      footer section article p {
+        font-size: 18px;
+        line-height: 2.5;
+        margin-top: 2rem; }
 
 /*footer閉じタグ*/
 /*media 768px*/
 @media (max-width: 768px) {
   footer {
-    /*section閉じタグ*/
-  }
-  footer section {
-    background-color: rgba(245, 243, 242, 0.75);
-    display: block;
-    width: 100%;
-    height: 50%;
-    border-radius: 10px;
-    position: absolute;
-    top: inherit;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    /*article閉じタグ*/
-  }
-  footer section article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  footer section article img {
-    width: 14rem;
-    height: auto;
-    margin-top: 3rem;
-  }
-  footer section article p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 4rem;
-  }
+    /*section閉じタグ*/ }
+    footer section {
+      background-color: rgba(245, 243, 242, 0.75);
+      display: block;
+      width: 100%;
+      height: 50%;
+      border-radius: 10px;
+      position: absolute;
+      top: inherit;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      /*article閉じタグ*/ }
+      footer section article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        footer section article img {
+          width: 14rem;
+          height: auto;
+          margin-top: 3rem; }
+        footer section article p {
+          font-size: 16px;
+          line-height: 1.5;
+          margin-top: 4rem; }
 
-  /*footer*/
-}
+  /*footer*/ }
 /*media 768px閉じ*/
