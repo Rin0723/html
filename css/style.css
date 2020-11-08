@@ -26,10 +26,14 @@ $font:;
 #wrapper nav.koteiver ul {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: flex-end;
+}
+#wrapper nav.koteiver ul li {
+  display: inline-block;
+  width: 3rem;
 }
 #wrapper nav.koteiver ul img {
-  width: 5%;
+  width: 100%;
   margin-top: 2rem;
 }
 #wrapper header {

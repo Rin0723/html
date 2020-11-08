@@ -30,9 +30,13 @@ $font:;
         ul{
             display: flex;
             flex-direction: column;
-            align-content: center;
+            align-items: flex-end;
+            li{
+                display: inline-block;
+                width: 3rem;
+            }
             img{
-                width: 5%;
+                width: 100%;
                 margin-top: 2rem;
             }
         }
