@@ -29,9 +29,10 @@ $font:;
     nav.koteiver{
         position: absolute;
         right: 0;
-        top: 14%;
+        top: 10%;
         background-color: $white;
-        padding: 2.1rem 1rem;
+        height: 100vh;
+        padding: 0 1rem;
         ul{
             display: flex;
             flex-direction: column;
