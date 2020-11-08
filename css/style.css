@@ -23,10 +23,16 @@ $font:;
   /*max-768px*/
   /*@media768px閉じタグ*/
 }
+#wrapper nav.koteiver {
+  position: absolute;
+  right: 0;
+  top: 14%;
+  background-color: rgba(245, 243, 242, 0.75);
+  padding: 2.1rem 1rem;
+}
 #wrapper nav.koteiver ul {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 #wrapper nav.koteiver ul li {
   display: inline-block;
