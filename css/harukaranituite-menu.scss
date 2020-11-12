@@ -13,7 +13,7 @@ $title: 30px;
 .story{
     height: $height;
     margin-top: 40rem;
-    padding-bottom: 40rem;
+    padding-bottom: 60rem;
     background-color: $green;
     position: relative;
     
@@ -29,7 +29,7 @@ $title: 30px;
         margin: auto;
         
         h2{
-            font-size: $title;
+            font-size: 12px;
             position: relative;
             text-align: center;
             margin-top: 4rem;
@@ -37,20 +37,20 @@ $title: 30px;
             .story-font1{
                 font-weight: bold;
                 margin-left: 1rem;
-                font-size: 32px;
+                font-size: 14px;
             }
             .story-font2{
-                font-size: 24px;
+                font-size: 10px;
                 margin-left: 1rem;
             }
         }
         h2::before{
             content: "";
             border: 1px solid #000;
-            width: 56%;
+            width: 94%;
             height: 1px;
             position: absolute;
-            top: 4rem;
+            top: 2rem;
             left: 0;
             right: 0;
             margin: auto;
@@ -58,9 +58,10 @@ $title: 30px;
         nav{
             display: flex;
             justify-content: center;
-            margin-top: 10rem;
+            flex-direction: column;
+            margin-top: 3rem;
             ul{
-                margin-left: 2rem;
+                margin-left: 0.8rem;
                 
                 li{
                     background-color: #D0D0D0;
