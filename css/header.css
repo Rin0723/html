@@ -33,7 +33,7 @@ header nav ul li {
   header nav {
     display: none;
   }
-  header :root {
+  :root {
     --hamburger-menu-size: 10%;
     /* メニューの大きさ */
     --hamburger-menu-padding: 10px;
