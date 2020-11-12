@@ -94,7 +94,7 @@ main{
     
     
     .thought{
-        height: 100vh;
+        height: $height;
         padding-bottom: 100rem;
         position: relative;
              h2{
@@ -185,5 +185,177 @@ main{
 
 /*max-768px*/
 @media (max-width:768px){
-    
+    main{
+        .about{
+            padding-bottom: 0;
+        article{
+            width: 20rem;
+            height: 30rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            
+            img{
+                width: 100%;
+                
+            }
+            .about-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            h2{
+                font-size: 18px;
+                margin: 1rem 0;
+            }
+            P{
+                display: block;
+                width: 18rem;
+                line-height: 1.5;
+                height: auto;
+            }
+                
+          }/*.about-box閉じ*/     
+            }/*article閉じ*/       
+        }/*.about閉じ*/
+        
+         .item{
+          padding-bottom: 70rem;
+          .items-contents{
+              
+              h2{
+                  font-size: 18px;
+                  margin-bottom: 3rem;
+                  text-align: center;
+              }
+              .item-images{
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+                  align-content: center;
+                  
+                  .item-content{
+                      margin-left: 2rem;
+                      img{
+                          width: 20rem;
+                          height: auto;
+                          margin-bottom: 1rem;
+                      }
+                      .item-box{
+                          display: flex;
+                          flex-direction: column;
+                          align-items: flex-end;
+                          margin-bottom: 1rem;
+                          margin-right: 2rem;
+                          
+                          
+                          h3{
+                              font-size: 16px;
+                              margin-bottom: 0.5em;
+                          }
+                          p{
+                              background-color: $gray;
+                              font-size: 16px;
+                          }
+                          
+                          
+                          
+                      }/*.item-box*/                   
+                  }/*.item-content閉じ*/
+              }/*.item-images閉じ*/
+          }/*.items-contents　閉じ*/
+    }/*.item　閉じ*/
+        
+         .thought{
+                padding-bottom: 0;
+                position: relative;
+             h2{
+                    font-size: 18px;
+                    text-align: center;
+                    position: relative;
+                    padding-top: 1rem;
+                    margin-bottom: 8rem;
+                }
+             h2::before{
+                content: "";
+                border: 1px solid #000;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 10%;
+                height: 1px;
+               }
+             h2::after{
+                content: "";
+                border: 1px solid #000;
+                position: absolute;
+                top: 4rem;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 10%;
+                height: 1px;
+               } 
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            p{
+                font-size: 16px;
+                margin-bottom: 1rem;
+                display: block;
+                width: 20rem;
+                margin-bottom: 2rem;
+            }
+            ul{
+                li{
+                    font-size: 15px;
+                }
+            }
+        }/*article*/
+        .thought-img{
+            width: 20rem;
+            height: 20rem;
+            position: absolute;
+            top: 25rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: center;
+                margin-top: 2rem;
+            }
+        }/*.thought-img閉じ*/
+        .thought-text{
+            position: absolute;
+            top: 50rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 18rem;
+            height: 22rem;
+            h3{
+                font-size: 16px;
+                line-height: 1.5;
+            }
+            p{
+                margin-bottom: 2rem;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            
+            
+        }/*.thought-text閉じ*/              
+     }/*.thought閉じ*/
+        
+    }/*main閉じ*/
 }/*@media (max-width:768px)　閉じ*/

@@ -12,15 +12,15 @@ $title: 30px;
 
 .story{
     height: $height;
-    margin-top: 20rem;
+    margin-top: 40rem;
     padding-bottom: 40rem;
     background-color: $green;
     position: relative;
     
     article{
         background-color: #fff;
-        width: 96%;
-        height: 90%;
+        width: 92%;
+        height: 94%;
         position: absolute;
         top: 0;
         left: 0;
@@ -85,3 +85,9 @@ $title: 30px;
         
     }/*articlet閉じ*/
 }/*.story閉じ*/
+
+
+/*max-widht768px*/
+@media (max-width:768px){
+    
+}/*@media (max-width:768px)閉じ*/

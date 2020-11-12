@@ -2,7 +2,7 @@
 /*変数設定*/
 .story {
   height: 100vh;
-  margin-top: 20rem;
+  margin-top: 40rem;
   padding-bottom: 40rem;
   background-color: rgba(153, 171, 78, 0.3);
   position: relative;
@@ -10,8 +10,8 @@
 }
 .story article {
   background-color: #fff;
-  width: 96%;
-  height: 90%;
+  width: 92%;
+  height: 94%;
   position: absolute;
   top: 0;
   left: 0;
@@ -73,3 +73,5 @@
 }
 
 /*.story閉じ*/
+/*max-widht768px*/
+/*@media (max-width:768px)閉じ*/

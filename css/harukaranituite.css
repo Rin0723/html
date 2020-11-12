@@ -171,4 +171,176 @@ main .thought .thought-text p {
 
 /*main 閉じ*/
 /*max-768px*/
+@media (max-width: 768px) {
+  main {
+    /*.about閉じ*/
+    /*.item　閉じ*/
+    /*.thought閉じ*/
+  }
+  main .about {
+    padding-bottom: 0;
+    /*article閉じ*/
+  }
+  main .about article {
+    width: 20rem;
+    height: 30rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*.about-box閉じ*/
+  }
+  main .about article img {
+    width: 100%;
+  }
+  main .about article .about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .about article .about-box h2 {
+    font-size: 18px;
+    margin: 1rem 0;
+  }
+  main .about article .about-box P {
+    display: block;
+    width: 18rem;
+    line-height: 1.5;
+    height: auto;
+  }
+  main .item {
+    padding-bottom: 70rem;
+    /*.items-contents　閉じ*/
+  }
+  main .item .items-contents {
+    /*.item-images閉じ*/
+  }
+  main .item .items-contents h2 {
+    font-size: 18px;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  main .item .items-contents .item-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    /*.item-content閉じ*/
+  }
+  main .item .items-contents .item-images .item-content {
+    margin-left: 2rem;
+    /*.item-box*/
+  }
+  main .item .items-contents .item-images .item-content img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  main .item .items-contents .item-images .item-content .item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+  }
+  main .item .items-contents .item-images .item-content .item-box h3 {
+    font-size: 16px;
+    margin-bottom: 0.5em;
+  }
+  main .item .items-contents .item-images .item-content .item-box p {
+    background-color: rgba(245, 243, 242, 0.5);
+    font-size: 16px;
+  }
+  main .thought {
+    padding-bottom: 0;
+    position: relative;
+    /*article*/
+    /*.thought-img閉じ*/
+    /*.thought-text閉じ*/
+  }
+  main .thought h2 {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    padding-top: 1rem;
+    margin-bottom: 8rem;
+  }
+  main .thought h2::before {
+    content: "";
+    border: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 10%;
+    height: 1px;
+  }
+  main .thought h2::after {
+    content: "";
+    border: 1px solid #000;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 10%;
+    height: 1px;
+  }
+  main .thought article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .thought article p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    display: block;
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+  main .thought article ul li {
+    font-size: 15px;
+  }
+  main .thought .thought-img {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  main .thought .thought-img img {
+    width: 100%;
+  }
+  main .thought .thought-img p {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  main .thought .thought-text {
+    position: absolute;
+    top: 50rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 18rem;
+    height: 22rem;
+  }
+  main .thought .thought-text h3 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  main .thought .thought-text p {
+    margin-bottom: 2rem;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /*main閉じ*/
+}
 /*@media (max-width:768px)　閉じ*/
