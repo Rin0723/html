@@ -163,7 +163,19 @@ main{
             }
         }/*.thought-img閉じ*/
         .thought-text{
-            
+            position: absolute;
+            top: 90rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 45rem;
+            height: 50rem;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                margin-bottom: 2rem;
+            }
             
             
         }/*.thought-text閉じ*/              
