@@ -3,18 +3,19 @@
 main {
   /*.about 閉じ*/
   /*.item　閉じ*/
+  /*.thought閉じ*/
 }
 main .about {
   position: relative;
   height: 100vh;
-  padding: 30rem;
+  padding-bottom: 80rem;
   /*article 閉じ*/
 }
 main .about article {
   width: 60rem;
   height: 50rem;
   position: absolute;
-  top: 0;
+  top: -10rem;
   left: 0;
   right: 0;
   bottom: 0;
@@ -40,6 +41,8 @@ main .about article .about-box P {
   height: auto;
 }
 main .item {
+  height: 100vh;
+  padding-bottom: 60rem;
   /*.items-contents　閉じ*/
 }
 main .item .items-contents {
@@ -47,15 +50,67 @@ main .item .items-contents {
 }
 main .item .items-contents h2 {
   font-size: 30px;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 main .item .items-contents .item-images {
   display: flex;
   justify-content: center;
   /*.item-content閉じ*/
 }
+main .item .items-contents .item-images .item-content {
+  margin-left: 1rem;
+  /*.item-box*/
+}
 main .item .items-contents .item-images .item-content img {
-  width: 30rem;
+  width: 26rem;
   height: auto;
+  margin-bottom: 2rem;
+}
+main .item .items-contents .item-images .item-content .item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+main .item .items-contents .item-images .item-content .item-box h3 {
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+main .item .items-contents .item-images .item-content .item-box p {
+  background-color: rgba(245, 243, 242, 0.5);
+  font-size: 18px;
+}
+main .thought {
+  height: 100vh;
+  padding-bottom: 100rem;
+}
+main .thought h2 {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  padding-top: 2rem;
+}
+main .thought h2::before {
+  content: "";
+  border: 1px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10%;
+  height: 1px;
+}
+main .thought h2::after {
+  content: "";
+  border: 1px solid #000;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10%;
+  height: 1px;
 }
 
 /*main 閉じ*/
