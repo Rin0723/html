@@ -3,7 +3,7 @@
 .story {
   height: 100vh;
   margin-top: 20rem;
-  padding-bottom: 80rem;
+  padding-bottom: 40rem;
   background-color: rgba(153, 171, 78, 0.3);
   position: relative;
   /*articlet閉じ*/
@@ -11,7 +11,7 @@
 .story article {
   background-color: #fff;
   width: 96%;
-  height: 96%;
+  height: 90%;
   position: absolute;
   top: 0;
   left: 0;

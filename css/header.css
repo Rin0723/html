@@ -19,3 +19,75 @@ header nav ul {
 header nav ul li {
   margin-left: 2rem;
 }
+
+/*max-width 768px*/
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    /* ここから */
+    /* ここまで */
+  }
+  header h1 img {
+    width: 30%;
+  }
+  header nav {
+    display: none;
+  }
+  header :root {
+    --hamburger-menu-size: 10%;
+    /* メニューの大きさ */
+    --hamburger-menu-padding: 10px;
+    --hamburger-menu-border-px: 4px;
+    /* 線の太さ */
+    --hamburger-menu-border-color: #342534;
+    /* 線の色 */
+    --hamburger-menu-transition: 0.3s;
+    /* アニメーション秒数 */
+  }
+  header .hamburger-menu {
+    margin: 10px 0 auto;
+    /* 中央寄せしたいだけ */
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+  }
+  header .hamburger-menu-line {
+    position: absolute;
+    transition: var(--hamburger-menu-transition);
+    width: calc(100% - var(--hamburger-menu-padding) * 2);
+    height: var(--hamburger-menu-border-px);
+    background-color: var(--hamburger-menu-border-color);
+  }
+  header .line-top {
+    top: var(--hamburger-menu-padding);
+    left: var(--hamburger-menu-padding);
+  }
+  header .line-middle {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    left: var(--hamburger-menu-padding);
+  }
+  header .line-bottom {
+    bottom: var(--hamburger-menu-padding);
+    left: var(--hamburger-menu-padding);
+  }
+  header .hamburger-menu-active > .line-top {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    transform: rotate(45deg);
+  }
+  header .hamburger-menu-active > .line-middle {
+    width: 0;
+    height: 0;
+    left: var(--hamburger-menu-padding);
+  }
+  header .hamburger-menu-active > .line-bottom {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    transform: rotate(-45deg);
+  }
+
+  /*header*/
+}
+/*@media (max-width:768px)閉じ*/
