@@ -2,29 +2,51 @@
 /*変数設定*/
 main {
   /*.about 閉じ*/
-}
-main img {
-  width: 20%;
+  /*.item　閉じ*/
 }
 main .about {
   position: relative;
   /*article 閉じ*/
 }
 main .about article {
-  width: 30rem;
-  height: 60rem;
+  width: 60rem;
+  height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20rem;
+  left: 15rem;
   right: 0;
   bottom: 0;
   margin: auto;
 }
 main .about article img {
-  width: 70%;
+  width: 90%;
 }
 main .about article h2 {
   font-size: 30px;
+  text-align: center;
+}
+main .about article P {
+  display: block;
+  width: 36rem;
+  height: auto;
+}
+main .item {
+  /*.items-contents　閉じ*/
+}
+main .item .items-contents {
+  /*.item-images閉じ*/
+}
+main .item .items-contents h2 {
+  font-size: 30px;
+}
+main .item .items-contents .item-images {
+  display: flex;
+  justify-content: center;
+  /*.item-content閉じ*/
+}
+main .item .items-contents .item-images .item-content img {
+  width: 30rem;
+  height: auto;
 }
 
 /*main 閉じ*/
