@@ -96,11 +96,13 @@ main{
     .thought{
         height: 100vh;
         padding-bottom: 100rem;
+        position: relative;
              h2{
                     font-size: $title;
                     text-align: center;
                     position: relative;
                     padding-top: 2rem;
+                    margin-bottom: 10rem;
                 }
              h2::before{
                 content: "";
@@ -123,8 +125,48 @@ main{
                 margin: auto;
                 width: 10%;
                 height: 1px;
-               }              
-                          
+               } 
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            p{
+                font-size: 18px;
+                margin-bottom: 1rem;
+                display: block;
+                width: 36rem;
+                margin-bottom: 2rem;
+            }
+            ul{
+                margin-bottom: 2rem;
+                li{
+                    font-size: 15px;
+                }
+            }
+        }/*article*/
+        .thought-img{
+            width: 60rem;
+            height: 50rem;
+            position: absolute;
+            top: 20rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: center;
+                margin-top: 2rem;
+            }
+        }/*.thought-img閉じ*/
+        .thought-text{
+            
+            
+            
+        }/*.thought-text閉じ*/              
      }/*.thought閉じ*/
     
 }/*main 閉じ*/

@@ -83,12 +83,17 @@ main .item .items-contents .item-images .item-content .item-box p {
 main .thought {
   height: 100vh;
   padding-bottom: 100rem;
+  position: relative;
+  /*article*/
+  /*.thought-img閉じ*/
+  /*.thought-text閉じ*/
 }
 main .thought h2 {
   font-size: 30px;
   text-align: center;
   position: relative;
   padding-top: 2rem;
+  margin-bottom: 10rem;
 }
 main .thought h2::before {
   content: "";
@@ -111,6 +116,42 @@ main .thought h2::after {
   margin: auto;
   width: 10%;
   height: 1px;
+}
+main .thought article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .thought article p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  display: block;
+  width: 36rem;
+  margin-bottom: 2rem;
+}
+main .thought article ul {
+  margin-bottom: 2rem;
+}
+main .thought article ul li {
+  font-size: 15px;
+}
+main .thought .thought-img {
+  width: 60rem;
+  height: 50rem;
+  position: absolute;
+  top: 20rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+main .thought .thought-img img {
+  width: 100%;
+}
+main .thought .thought-img p {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /*main 閉じ*/
