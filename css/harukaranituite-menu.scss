@@ -28,5 +28,60 @@ $title: 30px;
         bottom: 0;
         margin: auto;
         
-    }
-}
+        h2{
+            font-size: $title;
+            position: relative;
+            text-align: center;
+            margin-top: 4rem;
+            
+            .story-font1{
+                font-weight: bold;
+                margin-left: 1rem;
+                font-size: 32px;
+            }
+            .story-font2{
+                font-size: 24px;
+                margin-left: 1rem;
+            }
+        }
+        h2::before{
+            content: "";
+            border: 1px solid #000;
+            width: 56%;
+            height: 1px;
+            position: absolute;
+            top: 4rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            margin-top: 10rem;
+            ul{
+                margin-left: 2rem;
+                
+                li{
+                    background-color: #D0D0D0;
+                    width: 20rem;
+                    height: 6rem;
+                    margin-bottom: 2rem;
+                    position: relative;
+                    h3{
+                        font-size: 26px;
+                        position: absolute;
+                        bottom: 1rem;
+                        right: 1rem;
+                    }
+                    p{
+                      position: absolute;
+                      top: 1rem;
+                      left: 1rem;
+                    }
+                }
+            }
+        }
+        
+    }/*articlet閉じ*/
+}/*.story閉じ*/

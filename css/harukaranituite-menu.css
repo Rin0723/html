@@ -6,6 +6,7 @@
   padding-bottom: 80rem;
   background-color: rgba(153, 171, 78, 0.3);
   position: relative;
+  /*articlet閉じ*/
 }
 .story article {
   background-color: #fff;
@@ -18,3 +19,57 @@
   bottom: 0;
   margin: auto;
 }
+.story article h2 {
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  margin-top: 4rem;
+}
+.story article h2 .story-font1 {
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 32px;
+}
+.story article h2 .story-font2 {
+  font-size: 24px;
+  margin-left: 1rem;
+}
+.story article h2::before {
+  content: "";
+  border: 1px solid #000;
+  width: 56%;
+  height: 1px;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.story article nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.story article nav ul {
+  margin-left: 2rem;
+}
+.story article nav ul li {
+  background-color: #D0D0D0;
+  width: 20rem;
+  height: 6rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story article nav ul li h3 {
+  font-size: 26px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.story article nav ul li p {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+/*.story閉じ*/
