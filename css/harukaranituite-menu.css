@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/*変数設定*/
+.story {
+  height: 100vh;
+  padding-bottom: 80rem;
+  background-color: rgba(153, 171, 78, 0.3);
+}

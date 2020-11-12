@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*変数設定*/
+$green: rgba(153,171,78,0.3);
+$white: rgba(245,243,242,0.75);
+$gray: rgba(245,243,242,0.5);
+$yellow: rgba(255,217,0,1);
+$red: rgba(188,8,8,1);
+$height: 100vh;
+$title: 30px;
+
+
+.story{
+    height: $height;
+    padding-bottom: 80rem;
+    background-color: $green;
+}
