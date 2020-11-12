@@ -6,28 +6,37 @@ main {
 }
 main .about {
   position: relative;
+  height: 100vh;
+  padding: 30rem;
   /*article 閉じ*/
 }
 main .about article {
   width: 60rem;
-  height: 100%;
+  height: 50rem;
   position: absolute;
-  top: 20rem;
-  left: 15rem;
+  top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+  /*.about-box閉じ*/
 }
 main .about article img {
-  width: 90%;
+  width: 100%;
 }
-main .about article h2 {
+main .about article .about-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .about article .about-box h2 {
   font-size: 30px;
-  text-align: center;
+  margin: 2rem 0;
 }
-main .about article P {
+main .about article .about-box P {
   display: block;
-  width: 36rem;
+  width: 56rem;
   height: auto;
 }
 main .item {
