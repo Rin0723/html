@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*変数設定*/
+main {
+  /*.about 閉じ*/
+}
+main img {
+  width: 20%;
+}
+main .about {
+  position: relative;
+  /*article 閉じ*/
+}
+main .about article {
+  width: 30rem;
+  height: 60rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+main .about article img {
+  width: 70%;
+}
+main .about article h2 {
+  font-size: 30px;
+}
+
+/*main 閉じ*/
