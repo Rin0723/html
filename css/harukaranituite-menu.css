@@ -2,6 +2,19 @@
 /*変数設定*/
 .story {
   height: 100vh;
+  margin-top: 20rem;
   padding-bottom: 80rem;
   background-color: rgba(153, 171, 78, 0.3);
+  position: relative;
+}
+.story article {
+  background-color: #fff;
+  width: 96%;
+  height: 96%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
